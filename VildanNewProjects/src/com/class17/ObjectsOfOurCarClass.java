@@ -23,7 +23,7 @@ public class ObjectsOfOurCarClass {
 		
 		//accessing behavior 1 object
 		
-		car1.start();
+		car1.start();// calling method start from class car
 		car1.accelerate();
 		car1.drive();
 		System.out.println("---------------------------");
@@ -40,10 +40,10 @@ public class ObjectsOfOurCarClass {
 		
 		//accessing behavior 2 objects
 		
-		car2.accelerate();
-		car2.drive();
+		//car2.accelerate();
+		//car2.drive();
 		car2.start();
-		car2.reverse();
+		
 		
 		System.out.println("----------------------------");
 		
@@ -57,7 +57,7 @@ public class ObjectsOfOurCarClass {
 		System.out.println("I drive "+car2.make+" "+car2.year);
 		
 		
-		//Bus bus1=new Bus();
+		//Bus bus1=new Bus(); classta define olmadigi icin burda hata verir.
 		
 		
 		
