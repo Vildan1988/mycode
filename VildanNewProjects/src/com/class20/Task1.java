@@ -6,7 +6,7 @@ public class Task1 {
 		
 		Task1 task =new Task1();
 		String result1= task.reverseString("Syntax");
-		
+																						//task,result1,2,str thay are variable
 		System.out.println(result1);
 		
 		String str="Anna";
@@ -15,6 +15,7 @@ public class Task1 {
 		
 		String[] strArray=task.arrayOfWords("What a beautiful day is today!");
 		System.out.println("The length of the array is: " +strArray.length);
+		
 		for (String word:strArray) {
 			System.out.println(word);
 		}
